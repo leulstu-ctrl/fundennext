@@ -410,8 +410,8 @@ function showSuccess() {
     const message = `Hello, I would like to confirm my payment for:\n${orderDetails}\n\nTotal: ${formattedTotal}\n\n*Customer Details:*\nName: ${name}\nPhone: ${phone}\nAddress: ${address}\n\nI have attached the payment screenshot.`;
     const encodedMessage = encodeURIComponent(message);
 
-    whatsappLink.href = `https://wa.me/251900000000?text=${encodedMessage}`;
-    telegramLink.href = `https://t.me/+251900000000`;
+    whatsappLink.href = `https://wa.me/251944200770?text=${encodedMessage}`;
+    telegramLink.href = `https://t.me/+251944200770`;
 }
 
 function closeSuccess() {
