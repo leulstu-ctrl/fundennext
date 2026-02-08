@@ -2,6 +2,41 @@
 
 // Product Data
 const products = [
+    // iPhone 16 Series (New)
+    {
+        id: 101,
+        name: "iPhone 16 Pro Max",
+        category: "iPhone",
+        originalPrice: 187500,
+        price: 75000,
+        image: "https://images.unsplash.com/photo-1696446701796-da61225697cc?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        id: 102,
+        name: "iPhone 16 Pro",
+        category: "iPhone",
+        originalPrice: 162500,
+        price: 65000,
+        image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        id: 103,
+        name: "iPhone 16 Plus",
+        category: "iPhone",
+        originalPrice: 137500,
+        price: 55000,
+        image: "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        id: 104,
+        name: "iPhone 16",
+        category: "iPhone",
+        originalPrice: 112500,
+        price: 45000,
+        image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?q=80&w=800&auto=format&fit=crop"
+    },
+
+    // Existing iPhone 15 Series
     {
         id: 1,
         name: "iPhone 15 Pro Max",
@@ -24,7 +59,7 @@ const products = [
         category: "iPhone",
         originalPrice: 95000,
         price: 38000,
-        image: "https://images.unsplash.com/photo-1696446702183-f8a587f574bc?q=80&w=800&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 4,
@@ -32,7 +67,7 @@ const products = [
         category: "iPhone",
         originalPrice: 110000,
         price: 44000,
-        image: "https://images.unsplash.com/photo-1663499482523-1c0c167dd2a7?q=80&w=800&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 5,
@@ -41,6 +76,24 @@ const products = [
         originalPrice: 65000,
         price: 26000,
         image: "https://images.unsplash.com/photo-1632661674596-df8be070a5c5?q=80&w=800&auto=format&fit=crop"
+    },
+
+    // Mac Products (Added Mac Studio & Display)
+    {
+        id: 105,
+        name: "Mac Studio M2 Ultra",
+        category: "Mac",
+        originalPrice: 225000,
+        price: 90000,
+        image: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        id: 106,
+        name: "Studio Display",
+        category: "Mac",
+        originalPrice: 100000,
+        price: 40000,
+        image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 6,
@@ -66,6 +119,8 @@ const products = [
         price: 34000,
         image: "https://images.unsplash.com/photo-1615655406736-b37c4fabf923?q=80&w=800&auto=format&fit=crop"
     },
+
+    // iPads
     {
         id: 9,
         name: "iPad Pro 12.9",
@@ -90,13 +145,15 @@ const products = [
         price: 18000,
         image: "https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=800&auto=format&fit=crop"
     },
+
+    // Watches
     {
         id: 12,
         name: "Apple Watch Ultra 2",
         category: "Watch",
         originalPrice: 75000,
         price: 30000,
-        image: "https://images.unsplash.com/photo-1664713815297-90979a0b4715?q=80&w=800&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 13,
@@ -114,13 +171,15 @@ const products = [
         price: 11200,
         image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=800&auto=format&fit=crop"
     },
+
+    // AirPods
     {
         id: 15,
         name: "AirPods Pro 2",
         category: "AirPods",
         originalPrice: 22000,
         price: 8800,
-        image: "https://images.unsplash.com/photo-1628210889224-53b2e308bb46?q=80&w=800&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 16,
@@ -128,7 +187,7 @@ const products = [
         category: "AirPods",
         originalPrice: 16000,
         price: 6400,
-        image: "https://images.unsplash.com/photo-1588156979435-379b9d802b74?q=80&w=800&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 17,
@@ -138,13 +197,15 @@ const products = [
         price: 20800,
         image: "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?q=80&w=800&auto=format&fit=crop"
     },
+
+    // Accessories (Fixed Images & Added MagSafe)
     {
         id: 18,
         name: "HomePod Mini",
         category: "Home",
         originalPrice: 9500,
         price: 3800,
-        image: "https://images.unsplash.com/photo-1610438235354-a6be45289998?q=80&w=800&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 19,
@@ -152,7 +213,7 @@ const products = [
         category: "TV",
         originalPrice: 12000,
         price: 4800,
-        image: "https://images.unsplash.com/photo-1600486842492-c94cb149725f?q=80&w=800&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 20,
@@ -160,7 +221,15 @@ const products = [
         category: "Accessories",
         originalPrice: 8500,
         price: 3400,
-        image: "https://images.unsplash.com/photo-1620197793466-963a2342c86b?q=80&w=800&auto=format&fit=crop"
+        image: "https://images.unsplash.com/photo-1617802690992-15d93263d3a9?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        id: 107,
+        name: "MagSafe Charger",
+        category: "Accessories",
+        originalPrice: 6000,
+        price: 2400,
+        image: "https://images.unsplash.com/photo-1616348436168-de43ad0db179?q=80&w=800&auto=format&fit=crop"
     }
 ];
 
