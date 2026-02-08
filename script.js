@@ -6,140 +6,160 @@ const products = [
         id: 1,
         name: "iPhone 15 Pro Max",
         category: "iPhone",
-        price: 145000,
+        originalPrice: 145000,
+        price: 58000,
         image: "https://images.unsplash.com/photo-1696446701796-da61225697cc?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 2,
         name: "iPhone 15 Pro",
         category: "iPhone",
-        price: 125000,
+        originalPrice: 125000,
+        price: 50000,
         image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 3,
         name: "iPhone 15",
         category: "iPhone",
-        price: 95000,
+        originalPrice: 95000,
+        price: 38000,
         image: "https://images.unsplash.com/photo-1696446702183-f8a587f574bc?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 4,
         name: "iPhone 14 Pro Max",
         category: "iPhone",
-        price: 110000,
+        originalPrice: 110000,
+        price: 44000,
         image: "https://images.unsplash.com/photo-1663499482523-1c0c167dd2a7?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 5,
         name: "iPhone 13",
         category: "iPhone",
-        price: 65000,
+        originalPrice: 65000,
+        price: 26000,
         image: "https://images.unsplash.com/photo-1632661674596-df8be070a5c5?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 6,
         name: "MacBook Pro 16 M3",
         category: "Mac",
-        price: 210000,
+        originalPrice: 210000,
+        price: 84000,
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 7,
         name: "MacBook Air 15 M2",
         category: "Mac",
-        price: 130000,
+        originalPrice: 130000,
+        price: 52000,
         image: "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 8,
         name: "MacBook Air 13 M1",
         category: "Mac",
-        price: 85000,
+        originalPrice: 85000,
+        price: 34000,
         image: "https://images.unsplash.com/photo-1615655406736-b37c4fabf923?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 9,
         name: "iPad Pro 12.9",
         category: "iPad",
-        price: 105000,
+        originalPrice: 105000,
+        price: 42000,
         image: "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 10,
         name: "iPad Air 5",
         category: "iPad",
-        price: 55000,
+        originalPrice: 55000,
+        price: 22000,
         image: "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 11,
         name: "iPad Mini 6",
         category: "iPad",
-        price: 45000,
+        originalPrice: 45000,
+        price: 18000,
         image: "https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 12,
         name: "Apple Watch Ultra 2",
         category: "Watch",
-        price: 75000,
+        originalPrice: 75000,
+        price: 30000,
         image: "https://images.unsplash.com/photo-1664713815297-90979a0b4715?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 13,
         name: "Apple Watch Series 9",
         category: "Watch",
-        price: 45000,
+        originalPrice: 45000,
+        price: 18000,
         image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 14,
         name: "Apple Watch SE",
         category: "Watch",
-        price: 28000,
+        originalPrice: 28000,
+        price: 11200,
         image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 15,
         name: "AirPods Pro 2",
         category: "AirPods",
-        price: 22000,
+        originalPrice: 22000,
+        price: 8800,
         image: "https://images.unsplash.com/photo-1628210889224-53b2e308bb46?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 16,
         name: "AirPods 3",
         category: "AirPods",
-        price: 16000,
+        originalPrice: 16000,
+        price: 6400,
         image: "https://images.unsplash.com/photo-1588156979435-379b9d802b74?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 17,
         name: "AirPods Max",
         category: "AirPods",
-        price: 52000,
+        originalPrice: 52000,
+        price: 20800,
         image: "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 18,
         name: "HomePod Mini",
         category: "Home",
-        price: 9500,
+        originalPrice: 9500,
+        price: 3800,
         image: "https://images.unsplash.com/photo-1610438235354-a6be45289998?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 19,
         name: "Apple TV 4K",
         category: "TV",
-        price: 12000,
+        originalPrice: 12000,
+        price: 4800,
         image: "https://images.unsplash.com/photo-1600486842492-c94cb149725f?q=80&w=800&auto=format&fit=crop"
     },
     {
         id: 20,
         name: "AirTag (4 Pack)",
         category: "Accessories",
-        price: 8500,
+        originalPrice: 8500,
+        price: 3400,
         image: "https://images.unsplash.com/photo-1620197793466-963a2342c86b?q=80&w=800&auto=format&fit=crop"
     }
 ];
@@ -203,16 +223,22 @@ function renderProducts() {
                 <div class="absolute top-2 right-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded">
                     ${product.category}
                 </div>
+                <div class="absolute top-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded animate-pulse">
+                    60% OFF
+                </div>
             </div>
             <div class="p-5">
                 <h3 class="text-lg font-bold text-gray-800 mb-2 truncate">${product.name}</h3>
-                <div class="flex justify-between items-center">
-                    <span class="text-blue-600 font-bold text-xl">${formatPrice(product.price)}</span>
-                    <button onclick="addToCart(${product.id})" class="bg-gray-100 hover:bg-gray-200 text-gray-800 p-2 rounded-full transition">
-                        <i class="fas fa-plus"></i>
-                    </button>
+                <div class="flex flex-col mb-4">
+                    <span class="text-gray-400 text-sm line-through">${formatPrice(product.originalPrice)}</span>
+                    <div class="flex justify-between items-center">
+                        <span class="text-red-600 font-bold text-xl">${formatPrice(product.price)}</span>
+                        <button onclick="addToCart(event, ${product.id})" class="bg-gray-100 hover:bg-gray-200 text-gray-800 p-2 rounded-full transition">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
                 </div>
-                <button onclick="addToCart(${product.id})" class="w-full mt-4 bg-gray-900 text-white py-2 rounded-lg font-semibold hover:bg-gray-800 transition">
+                <button onclick="addToCart(event, ${product.id})" class="w-full bg-gray-900 text-white py-2 rounded-lg font-semibold hover:bg-gray-800 transition">
                     Add to Cart
                 </button>
             </div>
@@ -226,7 +252,7 @@ function formatPrice(price) {
 }
 
 // Add to Cart
-function addToCart(productId) {
+function addToCart(event, productId) {
     const product = products.find(p => p.id === productId);
     if (!product) return;
 
