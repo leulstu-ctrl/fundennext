@@ -307,7 +307,12 @@ function showSuccess() {
     const orderDetails = cart.map(item => `${item.quantity}x ${item.name}`).join(', ');
     const formattedTotal = formatPrice(total);
 
-    const message = `Hello, I would like to confirm my payment for:\n${orderDetails}\n\nTotal: ${formattedTotal}\n\nI have attached the payment screenshot.`;
+    // Get customer details
+    const name = document.getElementById('customer-name').value;
+    const phone = document.getElementById('customer-phone').value;
+    const address = document.getElementById('customer-address').value;
+
+    const message = `Hello, I would like to confirm my payment for:\n${orderDetails}\n\nTotal: ${formattedTotal}\n\n*Customer Details:*\nName: ${name}\nPhone: ${phone}\nAddress: ${address}\n\nI have attached the payment screenshot.`;
     const encodedMessage = encodeURIComponent(message);
 
     whatsappLink.href = `https://wa.me/251900000000?text=${encodedMessage}`;
